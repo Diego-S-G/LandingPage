@@ -1,0 +1,70 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    margin-top: 0px;
+    background-color: #f19e3e;
+
+    .brand p {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .scroll-to-top-button {
+        margin-top: -12px;
+        width: 50px;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        border-radius: 10%;
+    }
+    
+    .scroll-to-top-button i {
+        font-size: 25px;
+        color: black;
+        transition: .4s;
+    }
+
+    .scroll-to-top-button i:hover{
+        color: azure;
+    }
+    
+    .scroll-button {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: -30px;
+    }
+
+    .medias {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        #face{
+            width: 35px;
+            margin-left: -20px;
+            cursor: pointer;
+        }
+
+        #insta{
+            width: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        #tt{
+            width: 40px;
+            cursor: pointer;
+        }
+    }
+
+    .divider{
+        margin-left: 25vw;
+        width: 50%;
+    }
+}

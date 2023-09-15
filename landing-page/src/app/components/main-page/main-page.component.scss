@@ -1,0 +1,180 @@
+body {
+    height: auto;
+
+    .collection-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .collection {
+            margin-top: 100px;
+            margin-left: 3vw;
+            display: flex;
+
+            .main-image {
+                margin-top: -9px;
+                margin-left: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .name-and-new{
+                   margin-top: -46.8px;
+                   margin-bottom: 8px;
+
+                   h1 {
+                    font-weight: 550;
+                   }
+                    
+                }
+
+                img {
+                    width: 450px;
+                    height: 582px;
+                }
+
+                .image{
+                    display: flex;
+                    align-items: center;
+                }
+
+                i {
+                    position: relative;
+                    font-size: 25px;
+                    color: azure;
+                    cursor: pointer;
+                }
+
+                #left {
+                    margin-right: -20px;
+                }
+
+                #right {
+                    margin-left: -20px;
+                }
+
+            }
+
+            .thumbnails img {
+                display: flex;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                width: 100px;
+                height: 138px;
+                transition: .2s;
+            }
+
+            // Estilo para as imagens nas thumbnails que NÃO possuem a classe .active-thumbnail
+            .thumbnails img:not(.active-thumbnail) {
+                cursor: pointer;
+            }
+
+            // Seletor para a classe de imagens ativas nas thumbnails
+            .active-thumbnail {
+                opacity: 0.5; // Define a opacidade total para a imagem ativa
+                filter: grayscale(0%); // Remove a escala de cinza
+            }
+        }
+
+        .info {
+            margin-top: 150px;
+            margin-right: 10vw;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+
+            .text {
+                h1 {
+                    font-size: 30px;
+                    font-weight: 550;
+                }
+
+                p {
+                    font-size: 17px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .discount {
+                p {
+                    margin-top: 100px;
+                    margin-bottom: -100px;
+                    font-weight: 500;
+                    font-size: 17px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+
+                button {
+                    margin-top: 150px;
+                    width: 350px;
+                    height: 80px;
+                    font-size: 20px;
+                    color: #E36140;
+                    border: 1px solid #E36140;
+                    transition: .4s;
+                }
+            }
+
+            .aditional-info {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+    }
+
+
+    .reviews-section {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+
+
+        .reviews-container {
+            width: 900px;
+
+
+            .reviews-card {
+                box-shadow: 2px 2px 7px 1px;
+                height: 520px;
+                align-items: center;
+
+                #reviews-card-title {
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                }
+
+                .reviews-content {
+                    display: flex;
+
+                    .first-card,
+                    .second-card {
+                        text-align: justify;
+                        width: 350px;
+                        height: 300px;
+
+                        img {
+                            margin-left: -5px;
+                        }
+
+                        p {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .first-card {
+                        margin-right: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.normal-theme {
+    transition: .3s;
+    background-color: #FFFCF9;
+
+    h1,
+    p,
+    h3 {
+        transition: .3s;
+        color: #181818;
+    }
+
+    .reviews-card {
+        background-color: #FEF5EA;
+
+        #reviews-card-title {
+            color: #181818;
+        }
+    }
+
+}
+
+.dark-theme {
+    background-color: #202124;
+
+    h1,
+    p,
+    h3 {
+        color: azure;
+    }
+
+    .reviews-card {
+        background-color: #3C3D40;
+
+        #reviews-card-title {
+            margin-top: 10px;
+            margin-bottom: 50px;
+            color: azure;
+        }
+
+        .reviews-content {
+            p{
+                color: #181818;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,77 @@
+<body>
+    <section>
+        <div class="collection-section">
+            <div class="collection">
+                <div class="thumbnails">
+                    <img *ngFor="let image of images; let i = index" [src]="image" alt="Thumbnail"
+                        (click)="changeImage(i)" [ngClass]="{'active-thumbnail': i === selectedIndex}">
+                </div>
+                <div class="main-image">
+                    <div class="name-and-new">
+                        <h1>Coleção Radiante <i class="fa-solid fa-fire" style="color: #ff4000;"
+                                matTooltip="Novidade de Verão" matTooltipPosition="right"></i></h1>
+                    </div>
+                    <div class="image">
+                        <i (click)="prevImage()" class="fa-solid fa-caret-left" id="left"></i>
+                        <img [src]="currentImage" alt="Imagem Principal">
+                        <i (click)="nextImage()" class="fa-solid fa-caret-right" id="right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="text">
+                    <h1>Nossa Coleção de Verão está aqui!</h1>
+                    <p>Moda Quente para Dias Quentes.</p>
+                </div>
+                <div class="discount">
+                    <p>Aproveite nossos descontos: Economize 20% na compra de um item e 40% em compras múltiplas da
+                        coleção de verão.</p>
+                </div>
+                <div class="button">
+                    <button mat-stroked-button>ADQUIRA JÁ!</button>
+                </div>
+                <div class="aditional-info">
+                    <p style="font-style: italic;">Frete grátis em todo o Brasil</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section">
+        <div class="reviews-container">
+            <mat-card class="reviews-card">
+                <mat-card-header>
+                    <mat-card-title id="reviews-card-title">Últimas Avaliações <i class="fa-solid fa-thumbs-up"
+                            style="font-size: 25px; margin-left: 5px;"></i></mat-card-title>
+                </mat-card-header>
+                <mat-card-content class="reviews-content">
+                    <div class="first-rev">
+                        <mat-card class="first-card">
+                            <img src="assets/fivestar.webp" alt="rating" style="width: 200px; margin-bottom: -50px;">
+                            <mat-card-header>
+                                <mat-card-title>Amei a coleção!</mat-card-title>
+                                <mat-card-subtitle>Escrito por Bruno em 03/01/2023</mat-card-subtitle>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>Comprei a coleção no dia que lançou e não me arrependo. As roupas são bem bonitas e
+                                    vieram bem rápido. Se pudesse eu daria 10 estrelas haha.</p>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                    <div class="second-rev">
+                        <mat-card class="second-card">
+                            <img src="assets/fivestar.webp" alt="rating" style="width: 200px; margin-bottom: -50px;">
+                            <mat-card-header>
+                                <mat-card-title>Entrega rapidíssima!</mat-card-title>
+                                <mat-card-subtitle>Escrito por Maria Eduarda em 04/02/2023</mat-card-subtitle>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>Comprei 2 blusas de presente pro meu namorado e chegaram no dia seguinte!!
+                                    Definitivamente comprarei mais!</p>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </section>
+</body>
