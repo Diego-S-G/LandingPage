@@ -13,40 +13,35 @@ O objetivo desta página é mostrar uma coleção de verão para o usuário. A i
 
 ## Visão Geral:
 
-![whole-page](https://github.com/Diego-S-G/LandingPage/assets/140908243/cfd77534-5633-4dca-9cf8-179ac05780dd)
+![whole-page](https://github.com/Diego-S-G/LandingPage/assets/140908243/aed34d62-6867-4e33-a03f-a4ea145a253f)
 <br/>
 <br/>
 <br/>
 
 ## Header e Footer:
 
-![header-footer](https://github.com/Diego-S-G/LandingPage/assets/140908243/0d02ff5f-39b4-4e3d-819b-29904c22fdce)
+![header-footer](https://github.com/Diego-S-G/LandingPage/assets/140908243/4fc50546-12db-4e00-90b5-d7c104e306a6)
 <br/>
 <br/>
 <br/>
 
 ## Coleção Radiante 🌻
 
-![collection](https://github.com/Diego-S-G/LandingPage/assets/140908243/d591afb4-665f-4cb0-860c-17fc4f64d0da)
+![collection](https://github.com/Diego-S-G/LandingPage/assets/140908243/47cd0987-cf88-42bd-9d6a-e50124090258)
 <br/>
 <br/>
 <br/>
 
 ## Avaliações de Usuários:
 
- <img src="https://github.com/Diego-S-G/LandingPage/assets/140908243/012c6453-f353-40a5-8b60-cbdcf942eb60" width="600"/>
+<img src="https://github.com/Diego-S-G/LandingPage/assets/140908243/1844cd57-0d8d-4f59-9b8e-5f5731f76f2b" width="600"/>
 <br/>
 <br/>
 <br/>
 
 ## Modo Escuro (Dark Mode):
 
-![dark-mode](https://github.com/Diego-S-G/LandingPage/assets/140908243/206eaed3-8a1a-4edf-944f-0ca31be4758e)
-<br/>
-<br/>
-<br/>
-
-## A página pode ser acessada por [aqui].
+![dark-mode](https://github.com/Diego-S-G/LandingPage/assets/140908243/30de7639-dfb7-43f6-8f33-bdc9b7690dff)
 <br/>
 <br/>
 <br/>
